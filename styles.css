@@ -4,9 +4,13 @@ body{
 
 .keys{
     color: rgb(210, 210, 0);
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .text{
     color: white;
     text-indent: 30px;
+    font-size: 28px;
+    font-weight: bold;
 }
