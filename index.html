@@ -7,10 +7,33 @@
 </head>
 <body>
     <center><h1 class="text">GabriRdiaz</h1></center>
-    <p class="keys">{</p>
-        <p class="text">"name": "Gabriel Rodríguez Díaz",</p>
-        <p class="text">"tech": ["Java",".NET","Android","Vue"],</p>
-        <p class="text">"branch": "Software Engineering",</p>
-    <p class="keys">}</p>
+    <div class="mainContainer">
+        <div class="dataContainer">
+            <p class="keys">{</p>
+                <p class="text">"name": "Gabriel Rodríguez Díaz",</p>
+                <p class="text">"tech": ["Java",".NET","Android","Vue"],</p>
+                <p class="text">"branch": "Software Engineering",</p>
+            <p class="keys">}</p>
+        </div>
+        <div class="imgContainer">
+            <img id="clickableImg" src="./assets/RacoonConstruction.png" alt="" onclick="changeImage()"/>
+            <audio id="song" src="./assets/pedro.mp3" onended="endGif();"></audio>
+        </div>
+    </div>
 </body>
+<script>
+    function changeImage() {
+        var img = document.getElementById('clickableImg');
+        var audio = document.getElementById('song');
+
+        img.src='./assets/pedro.gif';
+        
+        audio.play();
+    }
+    function endGif(){
+        var img = document.getElementById('clickableImg');
+        img.src='./assets/RacoonConstruction.png';
+    }
+</script>
+
 </html>
