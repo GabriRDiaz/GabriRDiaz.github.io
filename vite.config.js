@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/GabriRDiaz.github.io/', // Set the base URL for your GitHub Pages deployment here
+  base: '/',
   define: {
     'process.env': process.env,
   },
