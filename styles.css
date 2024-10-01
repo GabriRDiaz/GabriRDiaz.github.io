@@ -19,3 +19,7 @@ body{
     padding-left: 40%;
     display: inline-flexbox;
 }
+
+#clickableImg{
+    cursor: pointer;
+}
